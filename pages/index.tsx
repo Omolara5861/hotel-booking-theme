@@ -9,11 +9,13 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      className={`flex ${inter.className}`}
     >
      <Sidebar />
+     <section className="flex-1 h-screen px-7">
      <Navbar />
      <Hero/>
+     </section>
     </main>
   )
 }

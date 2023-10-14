@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: rgb(226, 226, 226);
+}
+
+.bg-hero-image {
+  background-image: url('../public/hero.jpg')
+}
