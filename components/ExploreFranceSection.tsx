@@ -6,13 +6,13 @@ import ExploreFranceCard from "./ExploreFranceCard"
 
 
 const destinations=[{
-title:'Eiffel Tower, Paris, France',location:'Paris / France',price:65000,image:'/images/montmartre.jpg'
+title:'Eiffel Tower, Paris, France',location:'Paris / France',price:65000,image:'/images/tower.jpg'
 },
 {
-  title:'L\'Arc de Triomphe de l\'Etoile',location:'Paris / France',price:65000,image:'/images/montmartre.jpg'
+  title:'L\'Arc de Triomphe de l\'Etoile',location:'Paris / France',price:65000,image:'/images/triomphe.jpg'
   },
   {
-    title:'Paris, France',location:'Paris / France',price:65000,image:'/images/montmartre.jpg'
+    title:'Paris, France',location:'Paris / France',price:65000,image:'/images/paris.jpg'
     }]
 const ExploreFranceSection = () => {
   const swiperOpts={
