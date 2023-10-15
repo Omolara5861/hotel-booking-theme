@@ -3,9 +3,46 @@
 @tailwind utilities;
 
 body {
-  background: rgb(226, 226, 226);
+  background: rgb(242, 243, 243);
 }
 
 .bg-hero-image {
   background-image: url('../public/hero.jpg')
+}
+*{
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+main{
+  max-width: 1350px;
+  position: relative;
+}
+
+/* For Webkit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 5px; /* You can adjust the width to your preference */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a86c6c; /* Color of the scrollbar thumb */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+  height: 5px;
+  width: 5px; /* You can adjust the width to your preference */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #b8b7bd; /* Color of the scrollbar thumb */
+}
+
+/* For IE, Edge, and other browsers */
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: thin;
 }
