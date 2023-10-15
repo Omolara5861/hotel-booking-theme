@@ -13,7 +13,7 @@ const ExploreFranceCard:React.FC<CardProps> = ({title, location, price, image}) 
             <Image alt='' src={image} width={'100'} height={'50'} className='object-cover h-full w-full'/>
         </div>
         <div className="pr-3">
-            <h3 className='text-xl font-extrabold text-primaryColor'>{title || 'Eiffel Tower, Paris, France'}</h3>
+            <h3 className='text-xl font-black text-primaryColor'>{title || 'Eiffel Tower, Paris, France'}</h3>
             <div className="mt-2 flex justify-between">
                 <div>
             <span className="text-gray-400 text-xs"> {location}</span>
