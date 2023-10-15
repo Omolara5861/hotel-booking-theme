@@ -11,7 +11,7 @@ const Sidebar = () => {
       <div className="flex h-full gap-20 justify-between flex-col  pt-6 items-center">
 
         <div>
-          <h2 className='text-center  font-extrabold text-2xl mb-7'>MimaBooking</h2>
+          <h2 className='text-center text-primaryColor  font-black text-2xl mb-7'>Mima<span className='text-gray-500'>Booking</span></h2>
 
           <div className="flex flex-col items-center justify-between pb-10">
             <div className="rounded-full p-[6px] w-[100px] h-[100px] relative border-[1px] border-primaryColor bg-gray-200">
