@@ -75,7 +75,7 @@ const Sidebar = () => {
           </li>
         </ul>
 
-        <div className="-ml-8 flex-1 flex -mb-24">
+        <div className="-ml-8 flex-1 flex -mb-[150px]">
           <button className={btnClassnames}><TbSquareRoundedChevronRight /> Logout</button>
         </div>
       </div>
